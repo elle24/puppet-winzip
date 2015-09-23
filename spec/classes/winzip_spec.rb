@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-#describe 'keynote' do
+#describe 'winzip' do
 #  it do
-#    should contain_package('Keynote').with({
-#      :source   => 'http://192.168.21.151/Keynote.zip',
-#      :provider => 'compressed_app'
+#    should contain_package('Winzip').with({
+#      :source   => 'http://192.168.21.151/winzipmacedition40.dmg',
+#      :provider => 'appdmg'
 #    })
 #  end
 #end
