@@ -1,11 +1,11 @@
-# Public: Install Keynote for TORO only
+# Public: Install Winzip for TORO only
 #
 # Usage:
 #
-#   include keynote
-class keynote {
-  package { 'Keynote':
-    source   => 'http://192.168.21.151/Keynote.zip',
-    provider => 'compressed_app'
+#   include winzip
+class winzip {
+  package { 'Winzip':
+    source   => 'http://192.168.21.151/winzipmacedition40.dmg',
+    provider => 'appdmg'
   }
 }
